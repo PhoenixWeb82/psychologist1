@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+/* Navigation */
+ .navbar-brand {
+     font-size: 2.5rem;
+ }
+
+ .navbar-nav .nav-item .nav-link {
+     font-size: 1.2rem;
+     text-transform: uppercase;
+ }
+
+ .navbar-nav .nav-item .nav-link:hover {
+     color: green;
+ }
+
+ /* Jumobtron Image */
+ .jumbotron {
+     background-image: url('psychology-2647941_1280.jpg');
+     background-position: center;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     width: 100%;
+ }
+
+ .jumbotron .container {
+     padding-top: 15rem;
+     text-align: center;
+ }
+
+ .jumbotron .container h1 {
+     font-size: 4rem;
+     color: #ffffff;
+ }
+
+ .jumbotron .container .first {
+     font-size: 1.5rem;
+     color: #ffffff;
+ }
+
+
+ /* Information */
+ .information {
+     padding-top: 6rem;
+ }
+
+ .information img {
+     width: 100%;
+     height: 300px;
+ }
+
+ .information , p {
+     color: black;
+ }
+
+ .information h2 {
+     text-align: center;
+     font-size: 3rem;
+     padding-bottom: 30px;
+ }
+
+ .information h4 {
+     color: green;
+ }
+
+
+ /* About */
+ .about {
+     margin-top: 6rem;
+     background-color: #F5F5F5;
+     height: 450px;
+ }
+
+ .about .about-text {
+     padding-top: 4rem;
+ }
+
+ .about h1 {
+     font-weight: bold;
+ }
+
+
+ /* Specialist */
+ .specialist {
+    padding-top: 8rem;
+    text-align: center;
+ }
+
+ .specialist h1 {
+     text-align: center;
+     padding-bottom: 26px;
+ }
+
+ .specialist .fas {
+     background-color: green;
+     padding: 20px;
+     border-radius: 40px;
+     color: #ffffff;
+     font-size: 2rem;
+ }
+
+ /* Building */
+ .building {
+     padding-top: 8rem;
+     background-color: 	#303030;
+     margin-top: 8rem;
+     height: 500px;
+ }
+
+
+ .building img {
+     width: 250px;
+     height: 200px;
+ }
+
+
+.building h1 {
+    text-align: center;
+    padding-bottom: 26px;
+    color: #ffffff;
+}
+
+/* Contact */
+.contact {
+    background-color: green;
+    color: #ffffff;
+}
+
+.contact h4 {
+    font-weight: bold;
+}
+
+.contact .contact-text p {
+    color: #ffffff;
+}
+
+.contact .contact-text {
+    padding-top: 2rem;
+}
+
+.contact #contact-form {
+    background-color: #ffffff;
+    color: green;
+    padding: 12px;
+    border-radius: 30px;
+    width: 130px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+/* Social Media */
+.social-media {
+    background-color: #303030;
+    color: #ffffff;
+    padding-top: 3rem;
+    text-align: center;
+    height: 180px;
+}
+
+.social-media .fab {
+    font-size: 1.5rem;
+}
+
+
+.footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer p {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+}
+ /* Mobile Ready */
+ @media(max-width: 760px) {
+ .information .information-text {
+      margin: 10px;
+     }
+     .about {
+         height: 870px;
+     }
+     .specialist .fas {
+         margin: 10px;
+     }
+     .building {
+         text-align: center;
+         height: 950px;
+     }
+     .building img {
+         margin: 10px;
+     }
+     .contact {
+         text-align: center;
+         height: 200px;
+     }
+ }
